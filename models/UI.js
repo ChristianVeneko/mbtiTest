@@ -16,6 +16,7 @@ export class UI {
     showChoices(choices, callback){
         const choisesContainter = document.getElementById('choices')
         console.log(choisesContainter);
+        choisesContainter.innerHTML = ""
         for (let i = 0; i < choices.length; i++){
             const button = document.createElement('button');
             button.innerText = choices[i]
