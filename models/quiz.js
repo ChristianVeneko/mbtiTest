@@ -2,6 +2,7 @@ import { Questions } from "./questions.js"
 export class Quiz {
     questionIndex = 0
     score = 0 
+    porcentaje = 0
 
     /**
      * 
@@ -11,7 +12,7 @@ export class Quiz {
         this.questions = questions;
     }
 
-
+    
     getQuestionIndex(){
         return this.questions[this.questionIndex];
 
@@ -34,4 +35,7 @@ export class Quiz {
         this.questionIndex++
     }
 
+    sacarPorcentaje(cantidadPreguntas, escore){
+        this.porcentaje = escore * 100 / cantidadPreguntas
+    }
 }

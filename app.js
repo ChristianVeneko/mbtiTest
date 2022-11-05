@@ -10,8 +10,10 @@ import { UI } from './models/UI.js';
  */
 
 const renderPage = (quiz, ui) => {
+    
     if(quiz.isEnded()){
-        console.log(quiz.score);
+        quiz.sacarPorcentaje(quiz.questions.length, quiz.score)
+        ui.showScore(quiz.score, quiz.porcentaje);
         console.log("Quiz finalizado"); //pronto se mostrara los resultados del test
     }else {
         ui.showQuestion(quiz.getQuestionIndex().text);
@@ -27,6 +29,7 @@ function main(){
     const quiz = new Quiz(questions)
     const ui = new UI()
     console.log(quiz);
+
     renderPage(quiz, ui)
    
 }
