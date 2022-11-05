@@ -25,7 +25,8 @@ export class Quiz {
      * 
      * @param {string} answer algun texto
      */
-    quess(answer){
+    guess(answer){
+        console.log(answer)
         if (this.getQuestionIndex().correctAnswer(answer)){
             this.escore++
         }

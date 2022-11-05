@@ -20,7 +20,7 @@ export class UI {
             const button = document.createElement('button');
             button.innerText = choices[i]
             button.className = 'button'
-            button.addEventListener('click', () => callback());
+            button.addEventListener('click', () => callback(choices[i]));
 
             choisesContainter.append(button);
         }

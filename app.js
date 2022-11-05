@@ -8,7 +8,8 @@ function main(){
     const ui = new UI()
     console.log(quiz);
     ui.showQuestion(quiz.getQuestionIndex().text);
-    ui.showChoices(quiz.getQuestionIndex().choices, () => console.log('we'));
+    ui.showChoices(quiz.getQuestionIndex().choices, (currentChoice) => 
+    quiz.guess(currentChoice));
 }
 
 main()

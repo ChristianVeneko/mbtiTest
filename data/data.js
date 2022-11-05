@@ -8,12 +8,12 @@ export const data = [
   {
     question: "¿Cuál es el animal nacional de Australia?",
     choices: ["Elefanta", "Serpiente", "Canguro", "Perro"],
-    answer: "word",
+    answer: "Canguro",
   },
 
   {
     question: "¿Qué ocurrió el 20 de Julio de 1969?",
     choices: ["El apolo 11", "Segunda guerra mundial", "muerte de John F. Kennedy", "Creacion de windows"],
-    answer: "word",
+    answer: "El apolo 11",
   },
 ];
