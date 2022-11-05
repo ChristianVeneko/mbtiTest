@@ -28,9 +28,9 @@ export class Quiz {
     guess(answer){
         console.log(answer)
         if(this.getQuestionIndex().correctAnswer(answer)){
-            this.escore = this.escore + 1
+            console.log("mano")
+            this.score++
         }
-
         this.questionIndex++
     }
 
