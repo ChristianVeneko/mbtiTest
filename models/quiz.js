@@ -17,8 +17,8 @@ export class Quiz {
 
     }
 
-    isEnder(){
-        return this.questions.lenght == this.questionIndex;
+    isEnded(){
+        return this.questions.length === this.questionIndex;
     }
 
     /**
@@ -27,8 +27,8 @@ export class Quiz {
      */
     guess(answer){
         console.log(answer)
-        if (this.getQuestionIndex().correctAnswer(answer)){
-            this.escore++
+        if(this.getQuestionIndex().correctAnswer(answer)){
+            this.escore = this.escore + 1
         }
 
         this.questionIndex++
