@@ -1,14 +1,9 @@
 import { Questions } from "./questions.js"
 export class Quiz {
     questionIndex = 0
-    score = 0 
-    score1 = 0
-    score2 = 0
-    score3 = 0
-    score4 = 0
-    score5 = 0
+    score = 0
     porcentaje = 0
-
+    scores = [0,0,0,0,0]
     /**
      * 
      * @param {Questions[]} questions 
@@ -40,27 +35,27 @@ export class Quiz {
 
         if(this.getQuestionIndex().answer1(answer)){
             console.log("hola")
-            this.score1++
+            this.scores[0]++
         }
 
         if(this.getQuestionIndex().answer2(answer)){
             console.log("epa")
-            this.score2++
+            this.scores[1]++
         }
 
         if(this.getQuestionIndex().answer3(answer)){
             console.log("chamo")
-            this.score3++
+            this.scores[2]++
         }
 
         if(this.getQuestionIndex().answer4(answer)){
             console.log("causa")
-            this.score4++
+            this.scores[3]++
         }
 
         if(this.getQuestionIndex().answer5(answer)){
             console.log("XDD")
-            this.score4++
+            this.scores[4]++
         }
 
 
