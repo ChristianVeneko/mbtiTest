@@ -102,7 +102,7 @@ export const data = [
   },
 
   {
-    question: "De que epresa es el sistema operativo Windows",
+    question: "De que empresa es el sistema operativo Windows",
     choices: ["Apple", "Google", "Nintendo", "Microsoft", "Sony"],
     answer: "Microsoft",
   },

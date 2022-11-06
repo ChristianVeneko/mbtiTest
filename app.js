@@ -13,7 +13,7 @@ const renderPage = (quiz, ui) => {
     
     if(quiz.isEnded()){
         quiz.sacarPorcentaje(quiz.questions.length, quiz.score)
-        ui.showScore(quiz.score, quiz.porcentaje);
+        ui.showScore(quiz.score, quiz.porcentaje, quiz.questions.length);
         console.log("Quiz finalizado"); //pronto se mostrara los resultados del test
     
     }else {

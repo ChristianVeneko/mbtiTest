@@ -30,10 +30,10 @@ export class UI {
      * 
      * @param {number} score puntaje que se mostrara en pantalla
      */
-    showScore(score, porcentaje ){
+    showScore(score, porcentaje, totalquestions){
         const quizEndHTML = `
         <h1>Result</h1>
-        <h2>Your escore is: ${score}</h2>
+        <h2>Respondiste ${score} Correctamente de ${totalquestions}</h2>
         <h2>Tu porcentaje es: ${porcentaje}%</h2>
         `
         const element = document.getElementById('quiz');
