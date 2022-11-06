@@ -62,7 +62,8 @@ export class Quiz {
         this.questionIndex++
     }
 
-    sacarPorcentaje(cantidadPreguntas, escore){
-        this.porcentaje = escore * 100 / cantidadPreguntas
+    
+    sacarPorcentaje(cantidadPreguntas, score){
+        this.porcentaje = score * 100 / cantidadPreguntas
     }
 }
