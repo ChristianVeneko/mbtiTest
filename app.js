@@ -12,6 +12,12 @@ import { UI } from './models/UI.js';
 const renderPage = (quiz, ui) => {
     
     if(quiz.isEnded()){
+        console.log(quiz.score1);
+        console.log(quiz.score2);
+        console.log(quiz.score3);
+        console.log(quiz.score4);
+        console.log(quiz.score5);
+
         quiz.sacarPorcentaje(quiz.questions.length, quiz.score)
         ui.showScore(quiz.score, quiz.porcentaje, quiz.questions.length);
         console.log("Quiz finalizado"); //pronto se mostrara los resultados del test
