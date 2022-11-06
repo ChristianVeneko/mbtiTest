@@ -20,22 +20,3 @@
         return choice === this.answer;
     }
 }
-
-class QuestionMBTI{
-    constructor(text, choice, answer, validAnswer){
-        this.text = text;
-        this.choice = choice;
-        this.answer = answer;
-        this.correctAnswe = validAnswer;
-    }
-
-    selectAnswer(choice){
-        return choice === this.answer;
-    }
-
-    correctAnswer(choice){
-        return choice === this.validAnswer;
-    }
-}
-
-new Questions()
