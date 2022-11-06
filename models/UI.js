@@ -30,7 +30,7 @@ export class UI {
      * 
      * @param {number} score puntaje que se mostrara en pantalla
      */
-    showScore(score, porcentaje){
+    showScore(score, porcentaje ){
         const quizEndHTML = `
         <h1>Result</h1>
         <h2>Your escore is: ${score}</h2>
@@ -38,5 +38,18 @@ export class UI {
         `
         const element = document.getElementById('quiz');
         element.innerHTML = quizEndHTML;
+    }
+    
+    /**
+     * 
+     * @param {number} questionIndex pregunta actual
+     * @param {number} totalquestions total de preguntas
+     */
+    showProgess(questionIndex, totalquestions){
+        const estatus = `
+        <p>Question ${questionIndex}, of ${totalquestions}</p>        
+        `
+        const element = document.getElementById('progress')
+        element.innerHTML = estatus
     }
 }

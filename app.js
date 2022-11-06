@@ -15,7 +15,9 @@ const renderPage = (quiz, ui) => {
         quiz.sacarPorcentaje(quiz.questions.length, quiz.score)
         ui.showScore(quiz.score, quiz.porcentaje);
         console.log("Quiz finalizado"); //pronto se mostrara los resultados del test
+    
     }else {
+        ui.showProgess(quiz.questionIndex + 1, quiz.questions.length)
         ui.showQuestion(quiz.getQuestionIndex().text);
         ui.showChoices(quiz.getQuestionIndex().choices, (currentChoice) => {
             quiz.guess(currentChoice);
