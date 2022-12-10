@@ -1,4 +1,8 @@
 import { questions } from './data/question.js';
+import { questions2 } from './data/question.js';
+import { questions3 } from './data/question.js';
+import { questions4 } from './data/question.js';
+import { allQuestions } from './data/question.js';
 import './models/questions.js'
 import { Quiz } from './models/quiz.js';
 import { UI } from './models/UI.js';
@@ -33,6 +37,11 @@ const renderPage = (quiz, ui) => {
 function main(){
     const quiz = new Quiz(questions)
     const ui = new UI()
+    console.log(questions2.length)
+    console.log(questions3.length)
+    console.log(questions4.length)
+    console.log(allQuestions)
+    console.log(allQuestions.length)
     console.log(quiz);
 
     renderPage(quiz, ui)
