@@ -14,9 +14,6 @@ const renderPage = (quiz, ui) => {
     if(quiz.isEnded()){
         console.log(quiz.scores[0]);
         console.log(quiz.scores[1]);
-        console.log(quiz.scores[2]);
-        console.log(quiz.scores[3]);
-        console.log(quiz.scores[4]);
 
         quiz.sacarPorcentaje(quiz.questions.length, quiz.score)
         ui.showScore(quiz.score, quiz.porcentaje, quiz.questions.length);

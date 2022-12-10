@@ -27,16 +27,4 @@
     answer2(choice){
         return choice === this.answer[1];
     }
-
-    answer3(choice){
-        return choice === this.answer[2];
-    }
-
-    answer4(choice){
-        return choice === this.answer[3];
-    }
-
-    answer5(choice){
-        return choice === this.answer[4];
-    }
 }
