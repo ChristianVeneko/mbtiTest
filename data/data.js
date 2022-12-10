@@ -1,99 +1,57 @@
 export const data = [
   {
-    question: "Pregunta Random",
-    choices: ["OPC1", "OPC2"],
-    answer: ["OPC1", "OPC2"]
+    question: "PreguntaRandom",
+    choices: ["Introvertido", "Extrovertido"],
+    answer: ["Introvertido", "Extrovertido"]
   },
-
   {
-    question: "Pregunta Random",
-    choices: ["OPC1", "OPC2"],
-    answer: ["OPC1", "OPC2"]
+    question: "PreguntaRandom",
+    choices: ["Introvertido", "Extrovertido"],
+    answer: ["Introvertido", "Extrovertido"]
   },
-
   {
-    question: "Pregunta Random",
-    choices: ["OPC1", "OPC2"],
-    answer: ["OPC1", "OPC2"]
+    question: "PreguntaRandom",
+    choices: ["Introvertido", "Extrovertido"],
+    answer: ["Introvertido", "Extrovertido"]
   },
-
   {
-    question: "Pregunta Random",
-    choices: ["OPC1", "OPC2"],
-    answer: ["OPC1", "OPC2"]
+    question: "PreguntaRandom",
+    choices: ["Introvertido", "Extrovertido"],
+    answer: ["Introvertido", "Extrovertido"]
   },
-
   {
-    question: "Pregunta Random",
-    choices: ["OPC1", "OPC2"],
-    answer: ["OPC1", "OPC2"]
+    question: "PreguntaRandom",
+    choices: ["Introvertido", "Extrovertido"],
+    answer: ["Introvertido", "Extrovertido"]
   },
-
   {
-    question: "Pregunta Random",
-    choices: ["OPC1", "OPC2"],
-    answer: ["OPC1", "OPC2"]
+    question: "PreguntaRandom",
+    choices: ["Introvertido", "Extrovertido"],
+    answer: ["Introvertido", "Extrovertido"]
   },
-
   {
-    question: "Pregunta Random",
-    choices: ["OPC1", "OPC2"],
-    answer: ["OPC1", "OPC2"]
+    question: "PreguntaRandom",
+    choices: ["Introvertido", "Extrovertido"],
+    answer: ["Introvertido", "Extrovertido"]
   },
-
   {
-    question: "Pregunta Random",
-    choices: ["OPC1", "OPC2"],
-    answer: ["OPC1", "OPC2"]
+    question: "PreguntaRandom",
+    choices: ["Introvertido", "Extrovertido"],
+    answer: ["Introvertido", "Extrovertido"]
   },
-
   {
-    question: "Pregunta Random",
-    choices: ["OPC1", "OPC2"],
-    answer: ["OPC1", "OPC2"]
+    question: "PreguntaRandom",
+    choices: ["Introvertido", "Extrovertido"],
+    answer: ["Introvertido", "Extrovertido"]
   },
-
   {
-    question: "Pregunta Random",
-    choices: ["OPC1", "OPC2"],
-    answer: ["OPC1", "OPC2"]
+    question: "PreguntaRandom",
+    choices: ["Introvertido", "Extrovertido"],
+    answer: ["Introvertido", "Extrovertido"]
   },
-
   {
-    question: "Pregunta Random",
-    choices: ["OPC1", "OPC2"],
-    answer: ["OPC1", "OPC2"]
+    question: "PreguntaRandom",
+    choices: ["Introvertido", "Extrovertido"],
+    answer: ["Introvertido", "Extrovertido"]
   },
-
-  {
-    question: "Pregunta Random",
-    choices: ["OPC1", "OPC2"],
-    answer: ["OPC1", "OPC2"]
-  },
-
-  {
-    question: "Pregunta Random",
-    choices: ["OPC1", "OPC2"],
-    answer: ["OPC1", "OPC2"]
-  },
-
-  {
-    question: "Pregunta Random",
-    choices: ["OPC1", "OPC2"],
-    answer: ["OPC1", "OPC2"]
-  },
-
-  {
-    question: "Pregunta Random",
-    choices: ["OPC1", "OPC2"],
-    answer: ["OPC1", "OPC2"]
-  },
-
-  {
-    question: "Pregunta Random",
-    choices: ["OPC1", "OPC2"],
-    answer: ["OPC1", "OPC2"]
-  },
-
-  
 ];
