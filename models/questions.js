@@ -11,15 +11,7 @@
         this.answer = answer;
     }
     
-    /**
-     * 
-     * @param {string} choice cualquier opcion a validar
-     * @returns {boolean} retorna true si la opcion es correcta   
-     */
-     correctAnswer(choice){
-        return choice === this.answer;
-    }
-
+    
     answer1(choice){
         return choice === this.answer[0];
     }
