@@ -9,5 +9,3 @@ export const questions = data.map(questions => new Questions(questions.question,
 export const questions2 = data2.map(questions => new Questions(questions.question, questions.choices, questions.answer));
 export const questions3 = data3.map(questions => new Questions(questions.question, questions.choices, questions.answer));
 export const questions4 = data4.map(questions => new Questions(questions.question, questions.choices, questions.answer));
-
-export const allQuestions = [[questions], [questions2], [questions3], [questions4]]
