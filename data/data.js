@@ -1,57 +1,57 @@
 export const data = [
   {
-    question: "PreguntaRandom",
-    choices: ["Introvertido", "Extrovertido"],
-    answer: ["Introvertido", "Extrovertido"]
+    question: "Te describes más como alguien…",
+    choices: ["Quieto y reservado", "Enérgico y hablador"],
+    answer: ["Quieto y reservado", "Enérgico y hablador"]
   },
   {
-    question: "PreguntaRandom",
-    choices: ["Introvertido", "Extrovertido"],
-    answer: ["Introvertido", "Extrovertido"]
+    question: "Consigues el tiempo a solas como algo…",
+    choices: ["Recomfortante", "Aburrido"],
+    answer: ["Recomfortante", "Aburrido"]
   },
   {
-    question: "PreguntaRandom",
-    choices: ["Introvertido", "Extrovertido"],
-    answer: ["Introvertido", "Extrovertido"]
+    question: "Prefieres pasar tu tiempo libre",
+    choices: ["A solas", "Con amigos"],
+    answer: ["A solas", "Con amigos"]
   },
   {
-    question: "PreguntaRandom",
-    choices: ["Introvertido", "Extrovertido"],
-    answer: ["Introvertido", "Extrovertido"]
+    question: "¿Qué es más valioso en una amistad?",
+    choices: ["La privacidad y el respeto a los límites", "La franqueza y la expresión de opiniones"],
+    answer: ["La privacidad y el respeto a los límites", "La franqueza y la expresión de opiniones"]
   },
   {
-    question: "PreguntaRandom",
-    choices: ["Introvertido", "Extrovertido"],
-    answer: ["Introvertido", "Extrovertido"]
+    question: "En una fiesta tiendes a…",
+    choices: ["Quedarte en un rincón", "Interactuar con otras personas"],
+    answer: ["Quedarte en un rincón", "Interactuar con otras personas"]
   },
   {
-    question: "PreguntaRandom",
-    choices: ["Introvertido", "Extrovertido"],
-    answer: ["Introvertido", "Extrovertido"]
+    question: "¿Te consideras como alguien carismático?",
+    choices: ["No", "Sí"],
+    answer: ["No", "Sí"]
   },
   {
-    question: "PreguntaRandom",
-    choices: ["Introvertido", "Extrovertido"],
-    answer: ["Introvertido", "Extrovertido"]
+    question: "En compañía tiendes a…",
+    choices: ["Esperar a que se te acerquen", "Iniciar la conversación"],
+    answer: ["Esperar a que se te acerquen", "Iniciar la conversación"]
   },
   {
-    question: "PreguntaRandom",
-    choices: ["Introvertido", "Extrovertido"],
-    answer: ["Introvertido", "Extrovertido"]
+    question: "En reuniones…",
+    choices: ["Haces a los otros hablar", "Hablas bastante"],
+    answer: ["Haces a los otros hablar", "Hablas bastante"]
   },
   {
-    question: "PreguntaRandom",
-    choices: ["Introvertido", "Extrovertido"],
-    answer: ["Introvertido", "Extrovertido"]
+    question: "Por lo general prefieres…",
+    choices: ["Enfocarte en una sola cosa a la vez", "Mantenerte actvo y trabajar"],
+    answer: ["Enfocarte en una sola cosa a la vez", "Mantenerte actvo y trabajar"]
   },
   {
-    question: "PreguntaRandom",
-    choices: ["Introvertido", "Extrovertido"],
-    answer: ["Introvertido", "Extrovertido"]
+    question: "Es mejor trabajar…",
+    choices: ["Individualmente", "En grupo"],
+    answer: ["Individualmente", "En grupo"]
   },
   {
-    question: "PreguntaRandom",
-    choices: ["Introvertido", "Extrovertido"],
-    answer: ["Introvertido", "Extrovertido"]
+    question: "Pasar un largo tiempo con amigos te hace sentir...",
+    choices: ["Algo cansado", "Lleno de energía"],
+    answer: ["Algo cansado", "Lleno de energía"]
   },
 ];

@@ -1,67 +1,67 @@
 export const data2 = [
     {
-      question: "PreguntaRandom",
-      choices: ["Intuitivo", "Sensorial"],
-      answer: ["Intuitivo", "Sensorial"]
+      question: "Por lo general, confías más en tu…",
+      choices: ["Imaginación", "Experiencia"],
+      answer: ["Imaginación", "Experiencia"]
     },
     {
-      question: "PreguntaRandom",
-      choices: ["Intuitivo", "Sensorial"],
-      answer: ["Intuitivo", "Sensorial"]
-    },
-    
-    {
-      question: "PreguntaRandom",
-      choices: ["Intuitivo", "Sensorial"],
-      answer: ["Intuitivo", "Sensorial"]
+      question: "¿Cómo prefieres comunicar ideas?",
+      choices: ["De forma abstracta, con analogías y expresiones", "De forma concreta, con lenguaje claro y sencillo"],
+      answer: ["De forma abstracta, con analogías y expresiones", "De forma concreta, con lenguaje claro y sencillo"]
     },
     
     {
-      question: "PreguntaRandom",
-      choices: ["Intuitivo", "Sensorial"],
-      answer: ["Intuitivo", "Sensorial"]
+      question: "Prefieres enfocarte más en…",
+      choices: ["Las posibilidades y alternativas", "Los hechos y la verdad"],
+      answer: ["Las posibilidades y alternativas", "Los hechos y la verdad"]
     },
     
     {
-      question: "PreguntaRandom",
-      choices: ["Intuitivo", "Sensorial"],
-      answer: ["Intuitivo", "Sensorial"]
+      question: "¿Qué es peor?",
+      choices: ["Ser simple y monótono", "Tener la cabeza en las nubes"],
+      answer: ["Ser simple y monótono", "Tener la cabeza en las nubes"]
     },
     
     {
-      question: "PreguntaRandom",
-      choices: ["Intuitivo", "Sensorial"],
-      answer: ["Intuitivo", "Sensorial"]
+      question: "Prefieres llevarte con personas…",
+      choices: ["Imaginativas", "Realistas"],
+      answer: ["Imaginativas", "Realistas"]
     },
     
     {
-      question: "PreguntaRandom",
-      choices: ["Intuitivo", "Sensorial"],
-      answer: ["Intuitivo", "Sensorial"]
+      question: "Te consideras alguien más…",
+      choices: ["Teórico", "Pragmático"],
+      answer: ["Teórico", "Pragmático"]
     },
     
     {
-      question: "PreguntaRandom",
-      choices: ["Intuitivo", "Sensorial"],
-      answer: ["Intuitivo", "Sensorial"]
+      question: "Para planear algo, inicias al…",
+      choices: ["Pensar en grande", "Enfocarte en los detalles"],
+      answer: ["Pensar en grande", "Enfocarte en los detalles"]
     },
     
     {
-      question: "PreguntaRandom",
-      choices: ["Intuitivo", "Sensorial"],
-      answer: ["Intuitivo", "Sensorial"]
+      question: "Generalmente prefieres...",
+      choices: ["Lo novedoso", "Lo tradicional"],
+      answer: ["Lo novedoso", "Lo tradicional"]
     },
     
     {
-      question: "PreguntaRandom",
-      choices: ["Intuitivo", "Sensorial"],
-      answer: ["Intuitivo", "Sensorial"]
+      question: "Es más importante que tús ideas sean…",
+      choices: ["Originales", "Prácticas"],
+      answer: ["Originales", "Prácticas"]
     },
     
     {
-      question: "PreguntaRandom",
-      choices: ["Intuitivo", "Sensorial"],
-      answer: ["Intuitivo", "Sensorial"]
+      question: "Prefieres hacer las cosas…",
+      choices: ["A tu propio modo", "De la forma habitual"],
+      answer: ["A tu propio modo", "De la forma habitual"]
+    },
+    
+    {
+      question: "Para ti, ¿Qué es más importate para ser éxitoso/a?",
+      choices: ["Tus ideas", "Tus habilidades"],
+      answer: ["Tus ideas", "Tus habilidades"]
     }
     
 ];
