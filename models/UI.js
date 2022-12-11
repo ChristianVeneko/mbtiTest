@@ -66,11 +66,6 @@ export class UI {
         }else if(mbti == "ISTP"){
             img = "https://i.pinimg.com/originals/53/33/32/533332eb28b771dc09e975d79baba988.png"
         }
-        
-        "/images/ISFJ.png"
-        "/images/isfp.png"
-        "/images/istj.png"
-        "/images/istp.png"
         const quizEndHTML = `
         <h1>Resultado</h1>
         <h2>Tu MBTI es: ${mbti}

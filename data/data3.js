@@ -12,8 +12,8 @@ export const data3 = [
   },
   {
     question: "Según tu punto de vista, ¿qué es peor?",
-    choices: ["Ser despiadado", "Responsabilidades y obligaciones"],
-    answer: ["Ser despiadado", "Responsabilidades y obligaciones"],
+    choices: ["Ser despiadado", "Ser injusto"],
+    answer: ["Ser despiadado", "Ser injusto"],
   },
   {
     question: "¿Qué consideras más al tomar decisiones?",
@@ -37,8 +37,8 @@ export const data3 = [
   },
   {
     question: "Preferirías que tus hijos fueran…",
-    choices: ["Amables", "Amables"],
-    answer: ["Amables", "Amables"],
+    choices: ["Amables", "Inteligentes"],
+    answer: ["Amables", "Inteligentes"],
   },
   {
     question: "Un buen líder debería ser...",

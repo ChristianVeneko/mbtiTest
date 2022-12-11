@@ -41,8 +41,8 @@ export const data = [
   },
   {
     question: "Por lo general prefieres…",
-    choices: ["Enfocarte en una sola cosa a la vez", "Mantenerte actvo y trabajar"],
-    answer: ["Enfocarte en una sola cosa a la vez", "Mantenerte actvo y trabajar"]
+    choices: ["Enfocarte en una sola cosa a la vez", "Mantenerte activo y trabajar"],
+    answer: ["Enfocarte en una sola cosa a la vez", "Mantenerte activo y trabajar"]
   },
   {
     question: "Es mejor trabajar…",
