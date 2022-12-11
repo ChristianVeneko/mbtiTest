@@ -1,10 +1,20 @@
+@font-face {
+    font-family: "titleFont";
+    src: url("/font/The\ Buster.ttf")
+}
+
 html, body{
     padding: 0;
     margin: 0;
 }
 
 body{
-    background-color: #272343;
+    background-position: center center;
+    background-image: url("/images/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #272347;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,18 +22,58 @@ body{
 }
 
 #quiz{
-    background-color: #e3f6f5;
-    width: 30rem;
+    background-color: #d9f8f6;
+    width: 20rem;
     padding: 4rem;
     text-align: center;
 
 }
 
-h1{
+/* h1{
     color: #57636e;
-    font-size: 3rem;
+    
     padding: 2px 0 ;
 
+} */
+
+.titulo{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 3px;
+    font-size: 1.7rem;
+}
+
+.m{
+    padding-right: 3px;
+    color: rgb(67, 203, 171);
+    font-family: 'titleFont';
+}
+
+.b{
+    padding-right: 3px;
+    color: rgb(211, 172, 235);
+    font-family: 'titleFont';
+}
+.t{
+    padding-right: 3px;
+    color: rgb(126, 183, 104);
+    font-family: 'titleFont';
+}
+
+.i{
+    padding-right: 3px;
+    color: rgb(251, 240, 126);
+    font-family: 'titleFont';
+}
+
+
+
+.test{
+    color: #247d7d;
+    font-family: 'titleFont';
+    padding-left: 20px;
 }
 
 #question{
