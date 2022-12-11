@@ -2,7 +2,7 @@ import { Questions } from "./questions.js"
 export class Quiz {
     questionIndex = 0
     score = 0
-    porcentaje = 0
+    MBTI = ""
     scores = [0,0]
     /**
      * 
@@ -29,12 +29,10 @@ export class Quiz {
     guess(answer){
 
         if(this.getQuestionIndex().answer1(answer)){
-            console.log("hola")
             this.scores[0]++
         }
 
         if(this.getQuestionIndex().answer2(answer)){
-            console.log("epa")
             this.scores[1]++
         }
 
@@ -42,8 +40,4 @@ export class Quiz {
         this.questionIndex++
     }
 
-    
-    sacarPorcentaje(cantidadPreguntas, score){
-        this.porcentaje = score * 100 / cantidadPreguntas
-    }
 }
