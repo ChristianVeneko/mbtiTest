@@ -103,8 +103,6 @@ function main(){
     const ft = new Quiz(questions3)
     const jp = new Quiz(questions4)
     const ui = new UI()
-
-
     renderPage(quiz, ui, ns, ft, jp);
    
 }
