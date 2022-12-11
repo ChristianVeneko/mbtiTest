@@ -58,7 +58,7 @@ const renderPage4 = (quiz, ui, quiz2, quiz3, quiz4) => {
     if(quiz4.isEnded()){
         console.log("Puntos J: " + quiz4.scores[0])
         console.log("Puntos P: " + quiz4.scores[1])
-        console.log("FIN")
+        mostrarResultados(quiz, ui, quiz2, quiz3, quiz4);
     }else{
         ui.showQuestion(quiz4.getQuestionIndex().text);
         ui.showChoices(quiz4.getQuestionIndex().choices, (currentChoice) => {
@@ -67,6 +67,35 @@ const renderPage4 = (quiz, ui, quiz2, quiz3, quiz4) => {
         });
     }        
 };
+
+const mostrarResultados = (quiz, ui, quiz2, quiz3, quiz4) => {
+    let MBTI = ""
+    if(quiz.scores[0] > quiz.scores[1]){
+        MBTI = MBTI + "I"
+    }else{
+        MBTI = MBTI + "E"
+    }
+
+    if(quiz2.scores[0] > quiz2.scores[1]){
+        MBTI = MBTI + "N"
+    }else{
+        MBTI = MBTI + "S"
+    }
+
+    if(quiz3.scores[0] > quiz3.scores[1]){
+        MBTI = MBTI + "F"
+    }else{
+        MBTI = MBTI + "T"
+    }
+
+    if(quiz4.scores[0] > quiz4.scores[1]){
+        MBTI = MBTI + "J"
+    }else{
+        MBTI = MBTI + "P"
+    }
+
+    ui.showResults(MBTI)
+}
 
 function main(){
     const quiz = new Quiz(questions)
