@@ -6,6 +6,8 @@ import './models/questions.js'
 import { Quiz } from './models/quiz.js';
 import { UI } from './models/UI.js';
 
+
+
 /**
  * 
  * @param {Quiz} quiz el objeto quiz principal
@@ -17,6 +19,7 @@ const renderPage = (quiz, ui, quiz2, quiz3, quiz4) => {
         console.log("Puntos E: " + quiz.scores[1])
         renderPage2(quiz, ui, quiz2, quiz3, quiz4);
     }else {
+        ui.showProgess()
         ui.showQuestion(quiz.getQuestionIndex().text);
         ui.showChoices(quiz.getQuestionIndex().choices, (currentChoice) => {
             quiz.guess(currentChoice);
@@ -32,6 +35,7 @@ const renderPage2 = (quiz, ui, quiz2, quiz3, quiz4) => {
         console.log("Puntos S: " + quiz2.scores[1])
         renderPage3(quiz, ui, quiz2, quiz3, quiz4);
     }else {
+        ui.showProgess()
         ui.showQuestion(quiz2.getQuestionIndex().text);
         ui.showChoices(quiz2.getQuestionIndex().choices, (currentChoice) => {
             quiz2.guess(currentChoice);
@@ -46,6 +50,7 @@ const renderPage3 = (quiz, ui, quiz2, quiz3, quiz4) => {
         console.log("Puntos T: " + quiz3.scores[1])
         renderPage4(quiz, ui, quiz2, quiz3, quiz4);
     }else {
+        ui.showProgess()
         ui.showQuestion(quiz3.getQuestionIndex().text);
         ui.showChoices(quiz3.getQuestionIndex().choices, (currentChoice) => {
             quiz3.guess(currentChoice);
@@ -60,6 +65,7 @@ const renderPage4 = (quiz, ui, quiz2, quiz3, quiz4) => {
         console.log("Puntos P: " + quiz4.scores[1])
         mostrarResultados(quiz, ui, quiz2, quiz3, quiz4);
     }else{
+        ui.showProgess()
         ui.showQuestion(quiz4.getQuestionIndex().text);
         ui.showChoices(quiz4.getQuestionIndex().choices, (currentChoice) => {
             quiz4.guess(currentChoice);

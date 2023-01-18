@@ -8,6 +8,7 @@ export class UI {
        const questionTitle = document.getElementById("question")
        questionTitle.innerHTML = text;
     }
+    QuestionIndex = 0
 
     /**
      * 
@@ -25,6 +26,15 @@ export class UI {
             choisesContainter.append(button);
         }
     } 
+
+    showProgess(){
+        this.QuestionIndex = this.QuestionIndex + 1
+        const estatus = `
+        <p>Pregunta ${this.QuestionIndex}, de ${44}</p>        
+        `
+        const element = document.getElementById('progress')
+        element.innerHTML = estatus
+    }
 
     /**
      * 
